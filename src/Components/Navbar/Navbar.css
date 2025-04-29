@@ -15,7 +15,11 @@
    list-style-type: none;
    align-items: center;
    font-size: 18px;
-   gap: 90px;
+   gap: 5vw;
+}
+.nav-menu a{
+   color: #262626;
+   text-decoration: none;
 }
 .nav-contact{
    border-radius: 50px;
@@ -23,4 +27,27 @@
    background: #fff;
    color: #262626;
    cursor: pointer;
+}
+.nav-contact:hover{
+   background: #ffffffc6;
+   transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width:900px){
+   .nav{
+      margin: 30px 8vw;
+   }
+   .nav-menu li{
+      display: none;
+
+   }
+   #nav-c{
+      display: block;
+   }
+   .nav-logo{
+      font-size: 29px;
+   }
+   .nav-contact{
+      padding: 5px 12px;
+      font-size: 14px;
+   }
 }

@@ -55,3 +55,31 @@
    color: #FFF;
    font-size: 19px;
 }
+@media only screen and (max-width:1000px){
+   .hero{
+      margin: 70px 8vw;
+   }
+   .hero-text{
+      font-size: 40px;
+      line-height: 50px;
+   }
+   .hero-explore img, .hero-play img{
+      height: 50px;
+   }
+   .hero-play img{
+      margin: -14px;
+   }
+   .hero-explore p{
+      font-size: 15px;
+   }
+   .hero-dot{
+      width: 10px;
+      height: 10px;
+   }
+   .hero-dots{
+      gap: 13px;
+   }
+   .hero-play p{
+      font-size: 12px;
+   }
+}
